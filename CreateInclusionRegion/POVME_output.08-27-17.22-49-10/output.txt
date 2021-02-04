@@ -1,0 +1,38 @@
+
+If you use POVME in your research, please cite the following reference:
+  Durrant, J. D., C. A. de Oliveira, et al. (2011). "POVME: An algorithm
+  for measuring binding-pocket volumes." J Mol Graph Model 29(5): 773-776.
+
+Parameters:
+	UseDiskNotMemory: False
+	SavePoints: True
+	PointsIncludeRegions: sphere at (222.00500488, 138.53199768, 221.93600464), radius = 40.0
+	PointsIncludeRegions: sphere at (214.8480072, 156.42199707, 218.13299561), radius = 20.0
+	PointsIncludeRegions: sphere at (213.94599915, 161.67900085, 216.59199524), radius = 20.0
+	PointsIncludeRegions: sphere at (212.38999939, 168.32000732, 216.3730011), radius = 20.0
+	PointsIncludeRegions: sphere at (212.08299255, 174.95599365, 216.36799622), radius = 20.0
+	PointsIncludeRegions: sphere at (213.35400391, 180.40400696, 213.72099304), radius = 20.0
+	PointsIncludeRegions: sphere at (216.92700195, 183.3710022, 210.55799866), radius = 20.0
+	PointsIncludeRegions: sphere at (216.32699585, 187.79200745, 206.95300293), radius = 20.0
+	PointsIncludeRegions: sphere at (214.22599792, 191.94299316, 202.20399475), radius = 20.0
+	PointsIncludeRegions: sphere at (211.30499268, 195.38200378, 201.8480072), radius = 20.0
+	PointsIncludeRegions: sphere at (208.53199768, 197.97200012, 201.85699463), radius = 20.0
+	OutputEqualNumPointsPerFrame: False
+	SaveVolumetricDensityMap: False
+	SavePocketVolumesTrajectory: False
+	SaveIndividualPocketVolumes: False
+	SaveTabbedVolumeFile: False
+	GridSpacing: 2.0
+	NumProcessors: 4
+	DistanceCutoff: 1.09
+	OutputFilenamePrefix: POVME_output.08-27-17.22-49-10/
+	ConvexHullExclusion: True
+	ContiguousPointsCriteria: 4
+	CompressOutput: False
+
+Generating the pocket-encompassing point field
+
+Saving the point field as a PDB and NPY file
+	Point field saved to POVME_output.08-27-17.22-49-10/point_field.pdb to permit visualization
+	Point field saved to POVME_output.08-27-17.22-49-10/point_field.pdb.npy to optionally load for the volume calculation
+
