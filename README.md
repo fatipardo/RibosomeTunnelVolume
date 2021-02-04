@@ -6,7 +6,7 @@ In [(DOI: 10.7554/eLife.36326)](https://elifesciences.org/articles/36326), we ex
 
 Although our work has been published, we would like to share our files and raw data in the interest of transparency and reproducibility in research. We hope it is useful to anyone who is interested in estimating volumes of the ribosome exit tunnel. 
 
-If you download this repository **and** have POVME 2.0 installed on your computer, you should be able to re-run our analysis. 
+If you download this repository **and** have [POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME) installed on your computer, you should be able to re-run our analysis. 
 
 ### Estimating the volume of the exit tunnel of _Escherichia coli_ ribosomes
 
@@ -18,17 +18,17 @@ The tunnel is **not** uniform in its shape - ribosomes are comprised of mostly r
 
 An analogy that we find useful is that of a river (the channel) that flows into the sea (the cytoplasm) and is joined by several tributaries (minor channels) at the delta (the exit). The challenge is to estimate the exact location of river and thereafter the volume of water that the river carries without disturbing its tributaries. 
 
-### Why POVME 2.0? 
+### Why [POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME)? 
 
-POVME 2.0 is a software that has been used to calculate the volume of binding pockets in proteins. We chose it for this study because its simple algorithm would enable us to help define a channel i.e. identify the location of the "river". We were also guided by the knowledge that a nascent peptide traverses the ribosome tunnel through to the cytoplasm and POVME 2.0 allowed us to identify and define the boundaries.   
+[POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME) is a software that has been used to calculate the volume of binding pockets in proteins. We chose it for this study because its simple algorithm would enable us to help define a channel i.e. identify the location of the "river". We were also guided by the knowledge that a nascent peptide traverses the ribosome tunnel through to the cytoplasm and [POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME) allowed us to identify and define the boundaries.   
 
-POVME 2.0 is easy to use and enabled us to make few assumptions about our experimental model, we could change the radii of the spheres used, add or remove single components, and obtain results rapidly. This allowed numerous attempts at estimating the approximate volume of the _E.coli_ ribosome exit tunnel and the variants of it used in our study.   
+[POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME) is easy to use and enabled us to make few assumptions about our experimental model, we could change the radii of the spheres used, add or remove single components, and obtain results rapidly. This allowed numerous attempts at estimating the approximate volume of the _E.coli_ ribosome exit tunnel and the variants of it used in our study.   
 
 ### How is this repository structured?
 
 * **PDBfiles**: Contains the three PDB structures we used in the paper. 
 
-* **CreateInclusionRegion**: Includes the input files required to create the inclusion region. **This is step 1 to calculating the volume in POVME 2.0** We also include the output we obtained from POVME. 
+* **CreateInclusionRegion**: Includes the input files required to create the inclusion region. **This is step 1 to calculating the volume in [POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME)**. We also include the output we obtained from [POVME 2.0](https://git.durrantlab.pitt.edu/jdurrant/POVME). 
 
 * **WT**, **L23**, and **L24** : Contain the input files required to calculate the volume of the ribosome tunnel. **This is the final outcome** and includes the output files we obtained upon analysis. 
 
